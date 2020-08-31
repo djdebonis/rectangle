@@ -20,7 +20,7 @@ using namespace std;
 // Precondition: a.size( ) > 0.
 // It can be used to find the largest item in a list.
 template <typename Object, typename Comparator>
-const Object & findMax( const vector<Object> & arr, Comparator cmp )
+const Object & findMax( const vector<Object> & arr, Comparator cmp)
 {
     int maxIndex = 0;
 
@@ -32,7 +32,9 @@ const Object & findMax( const vector<Object> & arr, Comparator cmp )
           cerr << errorMsg << endl;
         }
 
-    return arr[ maxIndex ];
+    // create a copy to avoid
+    Object max = arr[maxIndex];
+    return max;
   }
 }
 

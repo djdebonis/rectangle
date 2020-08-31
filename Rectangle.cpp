@@ -24,5 +24,4 @@ void Rectangle::output(){
   cout << "Area: " << area << endl;
   cout << "Perimeter: " << perimeter << endl;
   cout << "********************************" << endl;
-
 }

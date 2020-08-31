@@ -24,6 +24,6 @@ CXXFLAGS = -Wall -g
 #	$(CXX) $(CXXFLAGS) -c Rectangle.h #Rectangle.cpp
 #
 main: main.cpp Rectangle.cpp Rectangle.h RectangleAreaComparator.h RectanglePerimeterComparator.h
-		$(CXX) $(CXXFLAGS) main.cpp Rectangle.cpp Rectangle.h RectangleAreaComparator.h RectanglePerimeterComparator.h
+		$(CXX) $(CXXFLAGS) main.cpp Rectangle.cpp
 #
 # The main.o target can be written more simply
