@@ -1,9 +1,9 @@
 /**
- * This is a comparator class which has one member function -
+ * This is a comparator class which has one member function--
  * isLessThan. This member function can be used to compare
  * Rectangles by their perimeter.
- * Author: Your Name
- * Version: Due Date
+ * Author: David J DeBonis
+ * Version: 2020-08-30
  */
 #include "Rectangle.h"
 

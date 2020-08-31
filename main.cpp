@@ -10,18 +10,15 @@
  * by area and by perimeter and displays the result.
  * It also includes findMax template to find the largest item
  * in the list
+ * Author: David J DeBonis
+ * Version: 2020-08-30
  */
 
 using namespace std;
 
 // Generic findMax template.
 // Precondition: a.size( ) > 0.
-//It can be used to find the largest item in a list.
-//Note: This is different from the one given in HW handout.
-//I think this one is easier to use.
-//If you end up creating a function for finding largest Rectangle by
-//area and another function for finding largest Rectangle by perimeter
-//then you are not using template function.
+// It can be used to find the largest item in a list.
 template <typename Object, typename Comparator>
 const Object & findMax( const vector<Object> & arr, Comparator cmp )
 {
@@ -80,19 +77,6 @@ int main() {
     cout << "The largest rectangle by perimeter: " << endl;
     cout << endl;
     perimeterMax.output();
-
-
-    //Creat an object of RectangleAreaComparator
-    //Use findMax template to find largest Rectangle by area
-    //Note that findMax will return a Rectangle object
-    //Display the Rectangle object.
-
-
-
-    //Creat an object of RectanglePerimeterComparator
-    //Use findMax template to find largest Rectangle by area
-    //Note that findMax will return a Rectangle object
-    //Display the Rectangle object.
 
     return 0;
 }

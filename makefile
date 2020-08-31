@@ -1,4 +1,6 @@
-# makefile for rectangle project
+# makefile for rectangle project (HW #2)
+# Author: David J DeBonis
+# Version: 2020-08-30
 
 # ************************************
 # variables to control op
